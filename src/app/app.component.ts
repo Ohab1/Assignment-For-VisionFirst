@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'assignment';
+  // Clickr=true
+  // Clickl=true
+  // Registration(){
+  //   this.Clickr=false
+  //   this.Clickl=true
+  // }
+  // Login(){
+  //   this.Clickl=false
+  //   this.Clickr=true
+  // }
 }

@@ -1,0 +1,232 @@
+{
+  "User": [
+    {
+      "Name": "Md Ohab",
+      "Email": "Ohab@g.com",
+      "Number": "7867564435",
+      "Password": "hgfdfg",
+      "UserName": "gffdfsg",
+      "Role": "IT_ADMIN",
+      "id": 2
+    },
+    {
+      "Name": "lkjhgcf",
+      "Email": "ug@h.c",
+      "Number": "897654398765",
+      "Password": "986756432",
+      "UserName": "ouiytdr",
+      "Role": "IT_ADMIN",
+      "id": 4
+    },
+    {
+      "Name": "Md. Ohab",
+      "Email": "ohab@g.com",
+      "Number": "978543234567",
+      "Password": "123456",
+      "UserName": "ohab",
+      "Role": "IT_ADMIN",
+      "id": 5
+    },
+    {
+      "Name": "mdd0ip9uy",
+      "Email": "jkh@k",
+      "Number": "987654789876",
+      "Password": ";jihugfg",
+      "UserName": "ljihuh",
+      "Role": "IT_ADMIN",
+      "id": 6
+    },
+    {
+      "Name": "khjghf",
+      "Email": "lkljhgf@kjhgf",
+      "Number": "87654356789",
+      "Password": "jkhgjhgdfsd",
+      "UserName": "lihuggf",
+      "Role": "IT_ADMIN",
+      "id": 7
+    },
+    {
+      "Name": "Fatima",
+      "Email": "Fatimariaz0003@gmail.com",
+      "Number": "8797533797",
+      "Password": "914245",
+      "UserName": "fatimariaz",
+      "Role": "IT_ADMIN",
+      "id": 8
+    },
+    {
+      "Name": "fajlihuggf",
+      "Email": "hgd@h",
+      "Number": "98754356789",
+      "Password": "123456",
+      "UserName": "fatima",
+      "Role": "IT_ADMIN",
+      "id": 9
+    },
+    {
+      "Name": "Md Saddam",
+      "Email": "saddam@gmail.com",
+      "Number": "7906273116",
+      "Password": "123456",
+      "UserName": "Saddam",
+      "Role": "IT_ADMIN",
+      "id": 10
+    },
+    {
+      "Name": "ljikgjfhg",
+      "Email": "jlkhjgfoiuyg@g",
+      "Number": "97865498765",
+      "Password": "liugyfhdgf",
+      "UserName": "ljhkjgf",
+      "Role": "IT_USER_NORMAL",
+      "id": 2
+    },
+    {
+      "Name": "oihughgf",
+      "Email": "lkhjgf@h",
+      "Number": "8754328765",
+      "Password": "jhugyfhgd",
+      "UserName": "luyff",
+      "Role": "IT_USER_NORMAL",
+      "id": 3
+    },
+    {
+      "Name": "iuyf",
+      "Email": "hlugyf@hh",
+      "Number": "876543223456",
+      "Password": "klghflh",
+      "UserName": "lkjgh",
+      "Role": "IT_USER_NORMAL",
+      "id": 4
+    },
+    {
+      "Name": "opuoyi6re",
+      "Email": "iouiyfy@nb",
+      "Number": "809799087654",
+      "Password": "lhkgyfdry",
+      "UserName": "oiuyrt",
+      "Role": "IT_USER_NORMAL",
+      "id": 5
+    },
+    {
+      "Name": "Fatima",
+      "Email": "Fatimariaz0003@gmail.com",
+      "Number": "8797533797",
+      "Password": "914245",
+      "UserName": "FatimaRiaz",
+      "Role": "IT_USER_NORMAL",
+      "id": 6
+    },
+    {
+      "Name": "uiljhkgg",
+      "Email": "kljkghjg@g",
+      "Number": "987654329875",
+      "Password": "123456",
+      "UserName": "riaz",
+      "Role": "IT_USER_NORMAL",
+      "id": 7
+    },
+    {
+      "Name": "test123",
+      "Email": "tesat@123.com",
+      "Number": "97654356789",
+      "Password": "123456",
+      "UserName": "test123",
+      "Role": "IT_ADMIN",
+      "id": 11
+    },
+    {
+      "Name": "hkugjyfhtdgfs",
+      "Email": "iugytdrskhgj@h",
+      "Number": "6754325678",
+      "Password": "hkgyjfthdrn",
+      "UserName": "oiuytjlhkugj",
+      "Role": "IT_USER_NORMAL",
+      "id": 12
+    },
+    {
+      "Name": "admin",
+      "Email": "admin@g.com",
+      "Number": "98765434356",
+      "Password": "123456",
+      "UserName": "admin",
+      "Role": "IT_ADMIN",
+      "id": 13
+    },
+    {
+      "Name": "user",
+      "Email": "user@g.com",
+      "Number": "9786543245",
+      "Password": "123456",
+      "UserName": "user",
+      "Role": "IT_USER_NORMAL",
+      "id": 14
+    }
+  ],
+  "posts": [
+    {
+      "Companyname": "Tata Consultancy Services",
+      "Createdby": "ohab",
+      "Companyaddress": "Jamshedpur",
+      "Role": "IT_ADMIN",
+      "Status": "APPROVED",
+      "id": 1
+    },
+    {
+      "Companyname": "Infosys Pvt Ltd",
+      "Createdby": "ohab",
+      "Companyaddress": "Bangalore",
+      "Role": "IT_ADMIN",
+      "Status": "APPROVED",
+      "id": 2
+    },
+    {
+      "Companyname": "HCL Technologies",
+      "Createdby": "ohab",
+      "Companyaddress": "Hyderabad",
+      "Role": "IT_ADMIN",
+      "Status": "APPROVED",
+      "id": 3
+    },
+    {
+      "Companyname": "Tech Mahindra",
+      "Createdby": "riaz",
+      "Companyaddress": "Vishakhapatnam",
+      "Role": "IT_USER_NORMAL",
+      "Status": "UNAPPROVED",
+      "id": 4
+    },
+    {
+      "Companyname": "Oracle Financial Services Software",
+      "Createdby": "riaz",
+      "Companyaddress": "Navi Mumbai",
+      "Role": "IT_USER_NORMAL",
+      "Status": "UNAPPROVED",
+      "id": 5
+    },
+    {
+      "Companyname": "Atom Technologies",
+      "Createdby": "riaz",
+      "Companyaddress": "Mumbai   ",
+      "Role": "IT_USER_NORMAL",
+      "Status": "UNAPPROVED",
+      "id": 6
+    },
+    {
+      "Companyname": "C-DAC",
+      "Createdby": "riaz",
+      "Companyaddress": "Thiruvananthapuram",
+      "Role": "IT_USER_NORMAL",
+      "Status": "UNAPPROVED",
+      "id": 7
+    },
+    {
+      "Companyname": "lihkugyjfthdg",
+      "Createdby": "riaz",
+      "Companyaddress": ";oilhukgyjfthdgsfda",
+      "Role": "IT_ADMIN",
+      "Status": "UNAPPROVED",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+
+
+<div class="funappcontent">
+
+
+    <router-outlet></router-outlet>
+    <nav class="navbar navbar-expand-sm  navbar-light bg-primary">
+        <div class="container-fluid ">
+            <h4 class="text-light">Welcome to admin dashboard</h4>
+            <input type="text" placeholder="Search From Createdby" name="search"  class="form-control " [(ngModel)]="Createdby" style="width:50% ;"> 
+            <div class="d-flex">
+    <button type="button"  class="btn btn-success " data-toggle="modal" data-target="#exampleModal" (click)="add()" (click)="addformvalue.reset()" >Create Company</button>&nbsp;&nbsp;
+    <button type="button"  class="btn btn-danger " routerLink="/login" (click)="logout()">Logout</button>
+            </div>
+        </div>
+    </nav>
+   
+   
+    
+    
+    <!-- table display here -->
+    <table  class="table   mb-0 font bg-light">
+        <thead>
+            <tr>
+                <th scope="col"> Sr. No.</th>
+                <th scope="col">Company Name</th>
+                <th scope="col">Created By</th>
+                <th scope="col">Company Address</th>
+                <th scope="col">Action</th>
+              
+                
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let fnappdata of details |filter:Createdby" class="bg-light" >
+                <td>{{fnappdata.id}}</td>
+                <td>{{fnappdata.Companyname}}</td>
+                <td>{{fnappdata.Createdby}}</td>
+                <td>{{fnappdata.Companyaddress}}</td>
+               
+                
+                <td >
+                    <button class="btn m-1 btnc" type="button"  data-toggle="modal" data-target="#exampleModal" (click)="edit(fnappdata)" (click)="editdata()"  [disabled]="Edit" >Edit Company</button> &nbsp;&nbsp;
+                    <button class="btn m-1 btnc" (click)="deletedata(fnappdata)" [disabled]="Delete">Delete</button>
+                    <button class="btn m-1 btno" *ngIf="fnappdata.Status!=='APPROVED'" (click)="Approve(fnappdata)" >Approve</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">{{addedit}}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+
+
+
+
+            <div class="modal-body">
+                <form [formGroup]="addformvalue" (ngSubmit)="addformvaluef()">
+                    <div class="mb-1">
+                    
+                      <input type="text" class="form-control"  placeholder="Please Enter Companyname" formControlName="Companyname">
+                      <span class="text-danger" *ngIf="namev && namev.touched && namev.invalid">Please Enter Correct Companyname</span>
+                    </div>
+                    <div class="mb-1">
+        
+                      <input type="text" class="form-control"  placeholder="Created by" formControlName="Createdby" *ngIf="create" readonly>
+                      <span class="text-danger" *ngIf="emailv && emailv.touched && emailv.invalid" >Please Enter Correct Details </span>
+                    </div>
+                 
+                    <div class="mb-1">
+                       
+                        <input type="text" class="form-control" placeholder=" Please Enter Address" formControlName="Companyaddress">
+                        <span class="text-danger" *ngIf="addressv && addressv.touched && addressv.invalid">Please Enter Correct Company  Address</span>
+                        
+                      </div>
+                   
+                    
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btno" data-dismiss="modal"  >Cancel</button>
+              <button type="button"  class="btn btnc" (click)="addformvaluef()" *ngIf=" adddetails" [disabled]="addformvalue.invalid"  data-dismiss="modal" >Save</button>
+        <button type="button"  class="btn btnc" (click)="updateform()"  *ngIf="update"  data-dismiss="modal">Update Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footerr">
+      <p>    © 2022 Copyright: Devloped by Md. Ohab</p>
+     </footer>

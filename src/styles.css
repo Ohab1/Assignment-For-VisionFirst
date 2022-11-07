@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+.btnc{
+    background-color: rgb(106, 138, 213);
+    color: white;
+    /* width: 100px; */
+ }
+
+ .btnc:hover{
+    background-color: rgb(77, 116, 207);
+ }
+
+ .btno{
+    background-color: orange;
+ }
+ .btno:hover{
+    background-color: rgb(226, 149, 5);
+ }
+ .footerr{
+   background-color: rgb(56, 55, 55);
+   flex: auto;
+   bottom: 0;
+   padding: 2px;
+   text-align: center;
+   padding-top: 12px;
+   color: white;
+
+ }
